@@ -1,0 +1,74 @@
+
+.header{
+    
+    
+    align-items: center;
+}
+
+.ad1{
+    height: 600px;
+     /* Adjust this percentage based on your layout preference */
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.ad2{
+    height: 600px;
+     /* Adjust this percentage based on your layout preference */
+    background-color: black;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.content{
+    
+    margin: 0 25%; /* Adjust the margins to create space for the ads */
+    text-align: center;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.name{
+    text-align: center;
+    
+}
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-style: solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.home{
+    margin: 5px 50px 5px 50px;
+}
+.categories{
+    margin: 5px 50px 5px 50px;
+}
+.about{
+    margin: 5px 50px 5px 50px;
+}
+.contact{
+    margin: 5px 50px 5px 50px;
+}
+
+.title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.text{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main{
+    
+    position: relative;
+
+}
