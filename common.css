@@ -12,6 +12,7 @@
     position: absolute;
     left: 0px;
     top: 0px;
+    width: 150px;
 }
 .ad2{
     height: 600px;
@@ -20,6 +21,7 @@
     position: absolute;
     right: 0px;
     top: 0px;
+    width: 150px;
 }
 .content{
     
