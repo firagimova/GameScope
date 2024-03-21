@@ -7,20 +7,20 @@
     border-style: solid;
     border-radius: 2px;
     margin-right: 30px;
-    width: 400px;
+    width: 150px;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center content vertically */
+    justify-content: center; 
     align-items: center; 
     
 }
 
 .list ul {
-    margin: 0; /* Removes the default margin */
+    margin: 0; 
     padding-left: 35px;
     padding-right: 30px;
     
-    text-align: center; /* Center the text within the list */
+    text-align: center; 
 }
 
 .list li {
@@ -30,22 +30,27 @@
 
 
 
-
-
 .innerContent{
     display: flex;
     justify-content: space-around;
     
 }
+.content{
+    
+    margin: 0 15%; 
+    text-align: center;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 .imgs{
+    width: 200px;
     border-style: solid;
     border-radius: 1px;
 }
 
-.a{
-    float: left;
-}
+
 
 .inText{
     font-weight: bolder;

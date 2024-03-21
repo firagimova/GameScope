@@ -1,31 +1,42 @@
 
-.header{
-    
-    
+header{
+    padding: 5px 0px 5px 0px;
+    background-color: darkgrey;
     align-items: center;
+    
 }
+
 
 .ad1{
     height: 600px;
-     /* Adjust this percentage based on your layout preference */
+     
     background-color: black;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 150px;
+    
+    
+    width: 100%;
+}
+
+.ad1 img{
+    height: 600px;
+    width: 100%;
 }
 .ad2{
     height: 600px;
-     /* Adjust this percentage based on your layout preference */
+    
     background-color: black;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    width: 150px;
+    
+    
+    width: 100%;
+
+}
+
+.ad2 img{
+    height: 600px;
+    width: 100%;
 }
 .content{
     
-    margin: 0 25%; /* Adjust the margins to create space for the ads */
+    margin: 0 25%; 
     text-align: center;
 
     margin-top: 50px;
@@ -69,8 +80,24 @@
     margin-top: 40px;
 }
 
-.main{
-    
-    position: relative;
 
+main{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 30px 0px 30px 0px;
 }
+
+.socialPic{
+    width: 40px;
+    height: 40px;
+}
+
+footer{
+    margin: 30px 0px 30px 0px;
+    padding: 10px 10px 20px 10px;
+    clear: both;
+    background-color:darkgray;
+    text-align: center;
+}
+
