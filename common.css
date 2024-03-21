@@ -1,103 +1,92 @@
-
-header{
-    padding: 5px 0px 5px 0px;
-    background-color: darkgrey;
-    align-items: center;
-    
+header {
+    padding: 5px 0px 5px 0px; /* Padding */
+    background-color: darkgrey; /* Background color */
+    align-items: center; /* Align items horizontally */
 }
 
-
-.ad1{
-    height: 600px;
-     
-    background-color: black;
-    
-    
-    width: 100%;
+.ad1 {
+    height: 600px; /* Fixed height */
+    background-color: black; /* Background color */
+    width: 100%; /* Full width */
 }
 
-.ad1 img{
-    height: 600px;
-    width: 100%;
-}
-.ad2{
-    height: 600px;
-    
-    background-color: black;
-    
-    
-    width: 100%;
-
+.ad1 img {
+    height: 600px; /* Fixed height */
+    width: 100%; /* Full width */
 }
 
-.ad2 img{
-    height: 600px;
-    width: 100%;
-}
-.content{
-    
-    margin: 0 25%; 
-    text-align: center;
-
-    margin-top: 50px;
-    margin-bottom: 50px;
+.ad2 {
+    height: 600px; /* Fixed height */
+    background-color: black; /* Background color */
+    width: 100%; /* Full width */
 }
 
-
-.name{
-    text-align: center;
-    
+.ad2 img {
+    height: 600px; /* Fixed height */
+    width: 100%; /* Full width */
 }
 
-.navBar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    border-style: solid;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.home{
-    margin: 5px 50px 5px 50px;
-}
-.categories{
-    margin: 5px 50px 5px 50px;
-}
-.about{
-    margin: 5px 50px 5px 50px;
-}
-.contact{
-    margin: 5px 50px 5px 50px;
+.content {
+    margin: 0 25%; /* Left and right margin */
+    text-align: center; /* Center text */
+    margin-top: 50px; /* Top margin */
+    margin-bottom: 50px; /* Bottom margin */
 }
 
-.title{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.text{
-    text-align: center;
-    margin-top: 40px;
+.name {
+    text-align: center; /* Center text */
 }
 
-
-main{
-    display: flex;
-    justify-content: space-between;
-
-    margin: 30px 0px 30px 0px;
+.navBar {
+    display: flex; /* Flex display */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    border-style: solid; /* Solid border style */
+    padding-top: 5px; /* Top padding */
+    padding-bottom: 5px; /* Bottom padding */
 }
 
-.socialPic{
-    width: 40px;
-    height: 40px;
+.home {
+    margin: 5px 50px 5px 50px; /* Margin */
 }
 
-footer{
-    margin: 30px 0px 30px 0px;
-    padding: 10px 10px 20px 10px;
-    clear: both;
-    background-color:darkgray;
-    text-align: center;
+.categories {
+    margin: 5px 50px 5px 50px; /* Margin */
 }
 
+.about {
+    margin: 5px 50px 5px 50px; /* Margin */
+}
+
+.contact {
+    margin: 5px 50px 5px 50px; /* Margin */
+}
+
+.title {
+    margin-top: 30px; /* Top margin */
+    margin-bottom: 30px; /* Bottom margin */
+}
+
+.text {
+    text-align: center; /* Center text */
+    margin-top: 40px; /* Top margin */
+}
+
+main {
+    display: flex; /* Flex display */
+    justify-content: space-between; /* Space between items */
+    margin: 30px 0px 30px 0px; /* Margin */
+}
+
+.socialPic {
+    width: 40px; /* Fixed width */
+    height: 40px; /* Fixed height */
+}
+
+footer {
+    margin: 30px 0px 30px 0px; /* Margin */
+    padding: 10px 10px 20px 10px; /* Padding */
+    clear: both; /* Clear floating elements */
+    background-color: darkgray; /* Background color */
+    text-align: center; /* Center text */
+}
