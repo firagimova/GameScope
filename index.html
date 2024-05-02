@@ -11,7 +11,11 @@ https://muratterginn.github.io/GameScope/index.html
 
 <head>
     <link rel="stylesheet" href="common.css"> <!-- Link to common stylesheet -->
+    
     <title>GameScope</title> <!-- Title of the webpage -->
+    <link rel="stylesheet" href="superfish.css">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="dropDownMenu.js"></script>
 </head>
 
 <body>
@@ -23,18 +27,20 @@ https://muratterginn.github.io/GameScope/index.html
     </header>
     
     <div class="navBar"> <!-- Navigation bar section -->
-        <div class="home"> <!-- Home link -->
-            <a href="index.html">Home</a> <!-- Link to home page -->
-        </div>
-        <div class="categories"> <!-- Categories link -->
-            <a href="RolePlaying.html">Categories</a> <!-- Link to categories page -->
-        </div>
-        <div class="about"> <!-- About link -->
-            <a href="about.html">About</a> <!-- Link to about page -->
-        </div>
-        <div class="contact"> <!-- Contact link -->
-            <a href="contact.html">Contact</a> <!-- Link to contact page -->
-        </div>
+        <ul class="sf-menu">
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="RolePlaying.html">Categories</a>
+                <ul>
+                    <li><a href="RolePlaying.html">Role Playing</a></li>
+                    <li><a href="Simulation.html">Simulation</a></li>
+                    <li><a href="Horror.html">Horror</a></li>
+                    <li><a href="Shooter.html">Shooter</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </div>
 
     <main> <!-- Main content section -->

@@ -5,6 +5,13 @@
     <link rel="stylesheet" href="common.css"> <!-- Link to common stylesheet -->
     <link rel="stylesheet" href="category.css"> <!-- Link to category-specific stylesheet -->
     <title>Simulation</title> <!-- Title of the webpage -->
+
+    <link rel="stylesheet" href="superfish.css">
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="dropDownMenu.js"></script>
+    <script src="tooltip.js"></script>
 </head>
 
 <body> <!-- Body section of the webpage -->
@@ -16,18 +23,20 @@
     </header>
 
     <div class="navBar"> <!-- Navigation bar section -->
-        <div class="home"> <!-- Home link -->
-            <a href="index.html">Home</a> <!-- Link to home page -->
-        </div>
-        <div class="categories"> <!-- Categories link -->
-            <a href="RolePlaying.html">Categories</a> <!-- Placeholder link to categories page -->
-        </div>
-        <div class="about"> <!-- About link -->
-            <a href="about.html">About</a> <!-- Link to about page -->
-        </div>
-        <div class="contact"> <!-- Contact link -->
-            <a href="contact.html">Contact</a> <!-- Link to contact page -->
-        </div>
+        <ul class="sf-menu">
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="RolePlaying.html">Categories</a>
+                <ul>
+                    <li><a href="RolePlaying.html">Role Playing</a></li>
+                    <li><a href="Simulation.html">Simulation</a></li>
+                    <li><a href="Horror.html">Horror</a></li>
+                    <li><a href="Shooter.html">Shooter</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </div>
 
     <main> <!-- Main content section of the webpage -->
@@ -47,7 +56,7 @@
                 <div class="table"> <!-- Table displaying category images -->
                     <table>
                         <tr>
-                            <td><a href="HouseFlipper.html"><img src="HFicon.jpg" alt="" class="imgs"></a></td> <!-- Image 1 -->
+                            <td><a href="HouseFlipper.html" title="House Flipper"><img src="HFicon.jpg" alt="" class="imgs"></a></td> <!-- Image 1 -->
                             <td><a href="index.html"><img src="header.jpg" alt="" class="imgs"></a></td> <!-- Image 2 -->
                             <td><a href="index.html"><img src="header.jpg" alt="" class="imgs"></a></td> <!-- Image 3 -->
                         </tr>

@@ -12,6 +12,19 @@ https://muratterginn.github.io/GameScope/index.html
     <link rel="stylesheet" href="common.css"> <!-- Link to common stylesheet -->
     <link rel="stylesheet" href="infos.css"> <!-- Link to common stylesheet -->
     <title>DOOM</title> <!-- Title of the webpage -->
+
+    <link rel="stylesheet" href="superfish.css">
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    
+    <script src="dropDownMenu.js"></script>
+    
+    <script  src="lightBox.js"></script>
+    <script src="tooltip.js"></script>
+    
+    
 </head>
 
 <body>
@@ -23,18 +36,20 @@ https://muratterginn.github.io/GameScope/index.html
     </header>
 
     <div class="navBar"> <!-- Navigation bar section -->
-        <div class="home"> <!-- Home link -->
-            <a href="index.html">Home</a> <!-- Link to home page -->
-        </div>
-        <div class="categories"> <!-- Categories link -->
-            <a href="RolePlaying.html">Categories</a> <!-- Link to categories page -->
-        </div>
-        <div class="about"> <!-- About link -->
-            <a href="about.html">About</a> <!-- Link to about page -->
-        </div>
-        <div class="contact"> <!-- Contact link -->
-            <a href="contact.html">Contact</a> <!-- Link to contact page -->
-        </div>
+        <ul class="sf-menu">
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="RolePlaying.html">Categories</a>
+                <ul>
+                    <li><a href="RolePlaying.html">Role Playing</a></li>
+                    <li><a href="Simulation.html">Simulation</a></li>
+                    <li><a href="Horror.html">Horror</a></li>
+                    <li><a href="Shooter.html">Shooter</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </div>
 
     <main> <!-- Main content section -->
@@ -65,9 +80,24 @@ https://muratterginn.github.io/GameScope/index.html
                 </article>
             </div>
             <div class="images">
-                <img src="Dicon.jpg" alt="icon">
-                <img src="Dp1.jpg" alt="picture1">
-                <img src="Dp2.jpg" alt="picture2">
+                <div>
+                    <a href="Dicon.jpg" target="_blank" data-lightbox="light-box" data-title="House Flipper Icon">
+                        <img src="Dicon.jpg" alt="icon">
+                    </a>
+                </div>
+                <div>
+                    <a href="Dp1.jpg" target="_blank" data-lightbox="light-box" data-title="Screenshot 1">
+                        <img src="Dp1.jpg" alt="picture1">
+                    </a>
+                </div>
+                <div>
+                    <a href="Dp2.jpg" target="_blank" data-lightbox="light-box" data-title="Screenshot 2">
+                        <img src="Dp2.jpg" alt="picture2">
+                    </a>
+                </div>
+
+
+
             </div>
         </div>
         <div class="ad2"> <!-- Advertisement section 2 -->

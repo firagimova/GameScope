@@ -12,6 +12,11 @@ https://muratterginn.github.io/GameScope/index.html
     <link rel="stylesheet" href="common.css"> <!-- Link to common stylesheet -->
     <link rel="stylesheet" href="infos.css"> <!-- Link to common stylesheet -->
     <title>Darkest Dungeon</title> <!-- Title of the webpage -->
+
+    <link rel="stylesheet" href="superfish.css">
+    <link rel="stylesheet" href="lightBox.js">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="dropDownMenu.js"></script>
 </head>
 
 <body>
@@ -23,18 +28,20 @@ https://muratterginn.github.io/GameScope/index.html
     </header>
 
     <div class="navBar"> <!-- Navigation bar section -->
-        <div class="home"> <!-- Home link -->
-            <a href="index.html">Home</a> <!-- Link to home page -->
-        </div>
-        <div class="categories"> <!-- Categories link -->
-            <a href="RolePlaying.html">Categories</a> <!-- Link to categories page -->
-        </div>
-        <div class="about"> <!-- About link -->
-            <a href="about.html">About</a> <!-- Link to about page -->
-        </div>
-        <div class="contact"> <!-- Contact link -->
-            <a href="contact.html">Contact</a> <!-- Link to contact page -->
-        </div>
+        <ul class="sf-menu">
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="RolePlaying.html">Categories</a>
+                <ul>
+                    <li><a href="RolePlaying.html">Role Playing</a></li>
+                    <li><a href="Simulation.html">Simulation</a></li>
+                    <li><a href="Horror.html">Horror</a></li>
+                    <li><a href="Shooter.html">Shooter</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </div>
 
     <main> <!-- Main content section -->
@@ -62,9 +69,15 @@ https://muratterginn.github.io/GameScope/index.html
                 </article>
             </div>
             <div class="images">
-                <img src="DDicon.jpg" alt="icon">
-                <img src="DDp1.jpg" alt="picture1">
-                <img src="DDp2.png" alt="picture2">
+                <a href="DDicon.jpg" target="_blank" data-lightbox="light-box" data-title="House Flipper Icon">
+                    <img src="DDicon.jpg" alt="icon">
+                </a>
+                <a href="DDp1.jpg" target="_blank" data-lightbox="light-box" data-title="Screenshot 1">
+                    <img src="DDp1.jpg" alt="picture1">
+                </a>
+                <a href="DDp2.png" target="_blank" data-lightbox="light-box" data-title="Screenshot 2">
+                    <img src="DDp2.png" alt="picture2">
+                </a>
             </div>
         </div>
         <div class="ad2"> <!-- Advertisement section 2 -->
