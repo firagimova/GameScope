@@ -1,0 +1,24 @@
+.info{
+    float: left;
+    margin-bottom: 20px;
+}
+
+.info p{
+    text-align: start;
+}
+
+.text article{
+    float: left;
+    clear: both;
+}
+
+.images{
+    
+    padding-top: 20px;
+    clear: both;
+    
+}
+
+.images img{
+    width: 300px;
+}
