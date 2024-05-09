@@ -1,5 +1,4 @@
-<script>
-    $(document).ready(function(){
-        $(document).tooltip()
-    })
-</script>
+
+$(document).ready(function () {
+    $(document).tooltip()
+})
