@@ -33,13 +33,13 @@
 .innerContent {
     display: flex; /* Flex display */
     justify-content: space-around; /* Distribute space evenly */
+    
 }
 
 .content {
-    margin: 0 15%; /* Left and right margin */
+    width: 70%; /* You can adjust this percentage */
+    margin: 50px auto; /* Top and bottom margin, auto left and right for centering */
     text-align: center; /* Center text */
-    margin-top: 50px; /* Top margin */
-    margin-bottom: 50px; /* Bottom margin */
 }
 
 .imgs {
@@ -50,4 +50,8 @@
 
 .inText {
     font-weight: bolder; /* Bold font weight */
+}
+
+.title{
+    padding-bottom: 50px;
 }

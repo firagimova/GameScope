@@ -10,9 +10,11 @@
 .text article{
     float: left;
     clear: both;
+
+    margin: 10px 10px 40px 10px;
 }
 
-.images{
+#tabs{
     
     width: 100%;         /* Adjust width to fill the container it's in, or set a specific max-width if needed */
     margin: 0 auto;      /* Center the slider */
@@ -22,12 +24,22 @@
     
 }
 
-.images img{
+#tabs img{
     display: block;      /* Removes bottom space/gap */
     width: 100%;         /* Ensures images scale properly */
-     padding: 10px 10px 10px 10px ;
+    padding: 10px 10px 10px 10px ;
       
 }
+
+.tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  }
+  
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
 
 body{
     overflow-x: hidden; 

@@ -1,4 +1,4 @@
-<script>
+
 $(document).ready(function() {
     $('ul.sf-menu').superfish({
         // Superfish options here
@@ -7,4 +7,3 @@ $(document).ready(function() {
         speed: 'fast'
     })
 });
-</script>
